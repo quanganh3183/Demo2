@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+}
+
+.header-logo {
+    justify-content: center;
+}
+.header-logo img{
+    width: 20%;
+    margin-left: 50%;
+}
+
+.header-search {
+    margin: auto 0;
+}
+
+.header-search button {
+    background-color: black;
+    color: white;
+}
+
+.banner {
+   display: block;
+    float: left;
+    width: 50%;
+}
+
+.banner img {
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+}
+
+.register {
+    color: orange;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.register div {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.register label {
+    float: left;
+    padding-left: 20px;
+}
+
+.register input,
+.register select,
+.register textarea {
+    width: 300px;
+}
+
+.register .lb-1 {
+    padding-right: 50px;
+}
+
+.register .lb-2 {
+    padding-right: 80px;
+}
+
+.register .lb-3 {
+    padding-right: 51px;
+}
+
+.register .lb-4 {
+    padding-top: 150px;
+}
+
+.register input {
+    height: 25px;
+}
+
+.register select {
+    width: 307px;
+    height: 30px;
+}
+
+.register textarea {
+    height: 170px;
+}
+
+.register .button input{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.title {
+    color: red;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    color:#10b9f7;
+}
+
+.img-respon {
+    width: 90%;
+    height: 400px;
+    margin-left: 10%;
+}
+
+.best-seller {
+    margin-bottom: 40px;
+}
+
+.best-seller-img {
+    display: block;
+    float: left;
+}
+
+.best-seller-info {
+    padding-left: 20px;
+    width: 50%;
+    float: right;
+    font-size: 20px;
+}
+
+.best-seller-info h4 {
+    padding: 30px 0;
+}
+
+.best-seller-info p {
+    width: 750px;
+}
+
+.access {
+    margin-bottom: 40px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #10b9f7;
+    color: white;
+}
+
+.footer p {
+    padding-top: 20px;
+}
+
+.footer h5 {
+    padding: 20px 0;
+}
+
+.sub-access{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+}
+
+.access-img {
+    width: 30%;
+    height: 230px;
+    float: left;
+    padding: 0 5% 0 9%;
+}
+
+.sub-access h3 {
+    padding-bottom: 10px;
+}
+
+.sub-access p {
+    width: 700px;
+}
+
+
+.price {
+    color: orange;
+    padding-top: 20px;
+}
